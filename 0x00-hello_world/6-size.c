@@ -12,10 +12,10 @@ int main(void)
 	long long int longlongType;
 	float floatType;
 
-printf("char: ℅zu \n", sizeof(charType));
-printf("int: ℅zu \n", sizeof(intType));
-printf("long int: ℅zu \n", sizeof(longType));
-printf("long long int: ℅zu \n", sizeof(longlongType));
-printf("float: ℅zu \n", sizeof(floatType));
+printf("size of a cha:r: ℅lu byte(s)\n", (unsigned long)sizeof(charType));
+printf("size of an int: ℅lu byte(s)\n", (unsigned long)sizeof(intType));
+printf("size of a long int: ℅lu byte(s)\n", (unsigned long)sizeof(longType));
+printf("size of a long long int: ℅lu byte(s)\n", (unsigned long)sizeof(longlongType));
+printf("size of a float: ℅lu byte(s)\n", (unsigned long) sizeof(floatType));
 	return (0);
 }
